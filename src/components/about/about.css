@@ -1,0 +1,160 @@
+.main1{
+  /* background-image: url("a1.jpg"); */
+  background-size: 20%;
+  color: rgb(255, 255, 255);
+  width: 90vw;
+}
+
+.me{
+  text-align: center;
+  text-align: center;
+  font-size: 55px;
+}
+
+.para-about-me{
+  padding: 2rem 5rem 0rem 5rem;
+  border: 1px solid white;
+  text-align: center;
+}
+
+hr{
+  width:20%; 
+  margin-left:40% ;
+  margin-right:25% ;
+  margin-bottom:23px;
+}
+
+.intro h2{
+  font-family: 'Times New Roman', Times, serif;
+  margin: 12px;
+}
+
+.intro p{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin: 12px;
+}
+
+* {box-sizing:border-box}
+
+.myskills, h3{
+  font-size: 2rem;
+  text-align: center;
+}
+
+h2 h3 hr{
+    width:20%; 
+    margin-left:40% ;
+    margin-right:25% ;
+    margin-bottom:23px;
+}
+
+.skills {
+text-align: center; 
+padding: 10px; 
+padding-bottom: 10px; 
+margin:8px;
+margin-left: 1rem;
+width: 260px;
+height: 26px;
+background: linear-gradient(0.25turn, #57889d, #ebf8e1, rgb(91, 91, 27)); 
+border-radius: 13px;
+border: 2px solid rgb(255, 255, 255);
+animation: html-fill 2s forwards;
+}
+
+
+.techskills{
+  margin-left: 15px;
+  font-size: 1.5rem;
+}
+
+
+.html{
+  height: 26px;
+  background: linear-gradient(0.25turn, #57889d, #ebf8e1, rgb(91, 91, 27));
+border-radius: 17px;
+border: 2px solid rgb(255, 255, 255);
+animation: html-fill 2s forwards;
+}
+@keyframes html-fill{100%{width: 90%; }} 
+
+.css{
+  height: 26px;
+  background: linear-gradient(0.25turn, #57889d, #ebf8e1, rgb(91, 91, 27));
+border-radius: 13px;
+border: 2px solid rgb(255, 255, 255);
+animation: css-fill 2s forwards;
+}
+@keyframes css-fill {100%{width: 80%;}}
+
+.js, .Tailwind, .Bootstrap{
+  height: 26px;
+  background: linear-gradient(0.25turn, #57889d, #ebf8e1, rgb(91, 91, 27));
+border-radius: 13px;
+border: 2px solid rgb(255, 255, 255);
+animation: js-fill 2s forwards;
+}
+@keyframes js-fill{100%{width: 70%;}} 
+
+.reactjs{
+  height: 26px;
+  background: linear-gradient(0.25turn, #57889d, #ebf8e1, rgb(91, 91, 27));
+border-radius: 13px;
+border: 2px solid rgb(255, 255, 255);
+animation: python-fill 2s forwards;
+}
+@keyframes python-fill{100%{ width: 80%;}} 
+
+.C, .Python{
+  height: 26px;
+  background: linear-gradient(0.25turn, #57889d, #ebf8e1, rgb(91, 91, 27));        
+border-radius: 13px;
+border: 2px solid rgb(255, 255, 255);
+animation: C-fill 2s forwards;
+}
+@keyframes C-fill{100%{width: 60%;}}  
+
+/**********************************************LANGUAGES**********************************************************/
+/* .language{
+  font-size: 1.5rem;
+  margin-top: 4rem;
+  margin-left: 15px;
+}
+.hindi{
+  height: 26px;
+background: linear-gradient(0.25turn, #57889d, #ebf8e1, rgb(91, 91, 27));
+border-radius: 13px;
+border: 2px solid rgb(255, 255, 255);
+animation: hindi-fill 2s forwards;
+}
+@keyframes hindi-fill{100%{ width: 100%;}} 
+
+
+.english{
+  height: 26px;
+  background: linear-gradient(0.25turn, #57889d, #ebf8e1, rgb(91, 91, 27));
+border-radius: 13px;
+border: 2px solid rgb(255, 255, 255);
+animation: english-fill 2s forwards;
+}
+@keyframes english-fill{100%{ width: 93%;}}  */
+
+
+.nepali{
+  height: 26px;
+  background: linear-gradient(0.25turn, #57889d, #ebf8e1, rgb(91, 91, 27));
+border-radius: 13px;
+border: 2px solid rgb(255, 255, 255);
+animation: nepali-fill 2s forwards;
+}
+@keyframes nepali-fill{100%{ width: 86%;}} 
+
+
+.kannada{
+  height: 26px;
+  background: linear-gradient(0.25turn, #57889d, #ebf8e1, rgb(91, 91, 27));
+border-radius: 13px;
+border: 2px solid rgb(255, 255, 255);
+animation: kannada-fill 2s forwards;
+}
+@keyframes kannada-fill{100%{ width: 60%;}}  

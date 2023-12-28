@@ -1,0 +1,54 @@
+button {
+    background-color: white;
+    color: black;
+    border-radius: 5rem;
+    height: 1.7rem;
+    width: 7rem;
+    border: none;
+    margin-bottom: 23px;
+    margin-top: -8rem;
+    margin-left: 23px;
+}
+
+.hiremebutton:hover {
+    background-color: yellow;
+}
+
+.resume {
+    width: 100%; /* Updated to full width for better responsiveness */
+    text-align: center;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.closeresumebutton {
+    background-color: rgb(255, 0, 0);
+    color: rgb(255, 255, 255);
+    border-radius: 5rem;
+    height: 1.7rem;
+    width: 7rem;
+    border: none;
+    margin-bottom: 23px;
+    margin-top: 1rem;
+    margin-left: 23px; 
+}
+
+.closeresumebutton:hover {
+    background-color: yellow;
+    color:black;
+}
+
+
+@media screen and (max-width: 600px) {
+    button, .closeresumebutton {
+        width: 100%; 
+        margin-left: 0; 
+    }
+
+    .resume {
+        width: 80%;
+        margin-left: 10%; 
+    }
+}
